@@ -1,0 +1,6 @@
+C -- Printf -- Scanf
+C++ -- cout -- cin
+C# -- Console.WriteLine 
+Java -- System.out.Println 
+Python -- Print
+Golang -- fmt.Println

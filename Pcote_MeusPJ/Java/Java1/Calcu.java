@@ -10,6 +10,8 @@ public class Main {
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 
+        
+
 		char operador;
         double num1, num2;
 

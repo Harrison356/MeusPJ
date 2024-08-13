@@ -7,7 +7,7 @@ import (
 
 func main() {
 	t := time.Now()
-	switch { //switch true
+	switch { // switch true
 	case t.Hour() < 12:
 		fmt.Println("Bom dia!")
 	case t.Hour() < 18:

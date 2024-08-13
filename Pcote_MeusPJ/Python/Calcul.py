@@ -28,12 +28,16 @@ num2 = float(input("Digite o segundo número: "))
 # Realiza a operação e imprime o resultado
 if operador == "+":
     resultado = soma(num1, num2)
+    
 elif operador == "-":
     resultado = subtracao(num1, num2)
+    
 elif operador == "*":
     resultado = multiplicacao(num1, num2)
+    
 elif operador == "/":
     resultado = divisao(num1, num2)
+    
 else:
     resultado = "Operador inválido"
 
