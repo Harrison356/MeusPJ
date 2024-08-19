@@ -7,5 +7,6 @@ func main() {
 
 	for i, numero := range numeros {
 		fmt.Printf("%d) %d\n", i+1, numero)
+		
 	}
 }
