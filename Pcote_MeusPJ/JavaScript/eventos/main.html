@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onmousedown="alert('clicou na tela')">
+     <!--onmouseup"alert('clicou e solto')"-->
+   
+    <center>
+        <p id="texto"> texto</p>
+        <br>
+    <button onclick="eventoClick()">click</button>
+    <button ondblclick="eventoDblClick()">click</button>
+</center>
+    <br><br>
+    <div id="teste" onmouseout="viraAzul()" onmousemove="adicionaTexto()"onmouseover="viraVermelho()"style="background-color:blue; margin:auto auto; width: 200px; height:50px;" >
+
+    </div>
+
+<script src="/eventos/index.js"></script>
+</body>
+</html>
