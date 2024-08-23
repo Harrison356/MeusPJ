@@ -5,20 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body onmousedown="alert('clicou na tela')">
-     <!--onmouseup"alert('clicou e solto')"-->
+<body >
+     <!--onmouseup"alert('clicou e solto')" 
+     onmousedown="alert('clicou na tela')"-->
    
     <center>
         <p id="texto"> texto</p>
         <br>
     <button onclick="eventoClick()">click</button>
     <button ondblclick="eventoDblClick()">click</button>
-</center>
+
     <br><br>
     <div id="teste" onmouseout="viraAzul()" onmousemove="adicionaTexto()"onmouseover="viraVermelho()"style="background-color:blue; margin:auto auto; width: 200px; height:50px;" >
-
     </div>
+    <br>
+    <input onfocus="limpaTexto()" id="campoTexto" type="text" style="padding: 80px; font-size:40px;" placeholder="Digite alguma coisa" value="ja vem crito">
+    <br><br>
+    <input onchange="mudou()" id="campoTexto1" type="text" style="padding: 80px; font-size:40px;" placeholder="Digite alguma coisa" value="ja vem crito">
 
+
+
+</center>
 <script src="/eventos/index.js"></script>
 </body>
 </html>

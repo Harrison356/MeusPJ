@@ -41,3 +41,11 @@ function viraAzul (){
     p.append('O mouse moveu<br>');
 }*/
 
+function limpaTexto(){
+    document.getElementById("campoTexto").value = "";
+
+}
+
+function mudou(){
+    console.log('Mundou');
+}
