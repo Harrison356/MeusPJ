@@ -4,3 +4,4 @@ C# -- Console.WriteLine
 Java -- System.out.Println 
 Python -- Print
 Golang -- fmt.Println
+Java Script -- console.log
