@@ -8,7 +8,7 @@ import (
 func main() {
 
 	i := 1
-	for i <= 10 { // não tem while em Go
+	for i <= 10 { // não tem while em Go hmmmmm...
 		fmt.Println(i)
 		i++
 
@@ -16,7 +16,7 @@ func main() {
 	for i := 0; i <= 20; i += 2 {
 		fmt.Printf("%d ", i)
 	}
-	fmt.Println("\nMisturando... ")
+	fmt.Println("\nMisturando tudo... ")
 	for i := 1; i <= 10; i++ {
 		if i%2 == 0 {
 			fmt.Print("Par ")
@@ -26,7 +26,7 @@ func main() {
 	}
 
 	for {
-		// laço infinito
+		// laço infinito "para sempre"
 		fmt.Println("Para Sempre... ")
 		time.Sleep(time.Second * 5) // pode colocar o tempo do loop em segundos
 	}
