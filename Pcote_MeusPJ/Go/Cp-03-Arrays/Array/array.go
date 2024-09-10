@@ -7,7 +7,7 @@ func main() {
 	var notas [3]float64
 	fmt.Println(notas)
 
-	notas[0], notas[1], notas[2] = 7.8, 4.3, 9.1
+	notas[0], notas[1], notas[2] = 8.8, 3.3, 9.2
 	fmt.Println(notas)
 
 
@@ -17,5 +17,5 @@ func main() {
 	}
 
 	media := total / float64(len(notas))
-	fmt.Printf("Média %.2f\n", media)
+	fmt.Printf("Média da nota é:  %.2f\n", media)
 }
