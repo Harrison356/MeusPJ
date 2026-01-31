@@ -1,6 +1,8 @@
-number = int(input("Digite uma nota de (0 a 10): "))
+number = float(input("Digite uma nota de (0 a 10): "))
 
-if number >= 6:
-    print("APROVADO")
+if number >= 7:
+    print("APPROVED")
+elif number >= 5 and number < 7:
+    print("RECOVERY")
 else:
-    print("REPROVADO")
+    print("FAILED")
